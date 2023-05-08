@@ -1,0 +1,14 @@
+﻿.navbarContainer {
+    display: flex;
+    background: black;
+    justify-content: center;
+    height: 64px;
+}
+
+.navbarLink {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding-inline: 1rem;
+}
