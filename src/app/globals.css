@@ -66,3 +66,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+/* Allows for a responsive footer design */
+body {
+  display: flex;
+  flex-direction: column;
+}
