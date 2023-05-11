@@ -67,14 +67,31 @@ a {
     text-decoration: none;
 }
 
+/*  
+    Pontus Lindblom's Custom CSS Reset ends here
+*/
+
 /* Allows for a responsive footer design */
 body {
     display: flex;
     flex-direction: column;
 }
 
-.page-container {
+/* Ensures the content of the page stays in the center */
+.content-container {
     display: flex;
     flex-direction: column;
+    align-self: center;
     align-items: center;
+    width: 33rem;
+}
+
+/* Make titles look better */
+h1 {
+    margin-block: 1rem;
+}
+
+/* Make text more readable by going to 19.2 px from 16 px */
+p {
+    font-size: 1.2rem;
 }
