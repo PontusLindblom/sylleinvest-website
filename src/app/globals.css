@@ -10,65 +10,65 @@
 
 /* Use a more intuitive box-sizing model */
 *, *::before, *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Remove default margin and padding */
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* Allow percentage-based heights in the application */
 html, body {
-  height: 100%;
+    height: 100%;
 }
 
 /* Increase line-height for accessibility */
 body {
-  line-height: 1.2;
+    line-height: 1.2;
 }
 
 /* Make images and videos easier to work with */
 img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 /* Inherit fonts for inputs and buttons */
 input, button, textarea, select {
-  font: inherit;
+    font: inherit;
 }
 
 /* Avoid text overflows */
 p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
-  hyphens: auto;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 /* Remove list styles (bullets/numbers) */
 ol, ul {
-  list-style: none;
+    list-style: none;
 }
 
 /* Remove spacing between cells in tables */
 table {
-  border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 /* Revert the 'white-space' property for textarea elements on Safari */
 textarea {
-  white-space: revert;
+    white-space: revert;
 }
 
 /* Remove anchor tag styling */
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 /* Allows for a responsive footer design */
 body {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }

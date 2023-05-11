@@ -1,14 +1,18 @@
 ﻿.navbarContainer {
     display: flex;
-    background: black;
     justify-content: center;
-    height: 64px;
+    background: black;
+    color: white;
+    min-height: 4rem;
 }
 
-.navbarLink {
+.navbarLogo {
+    padding-inline: 1rem;
+}
+
+.navbarText {
     display: flex;
     align-items: center;
-    font-size: 1.8rem;
-    color: white;
     padding-inline: 1rem;
+    font-size: 1.8rem;
 }
