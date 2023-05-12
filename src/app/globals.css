@@ -80,6 +80,7 @@ html {
 /* Restore 32px font-size and make titles look better */
 h1 {
     font-size: 3.2rem;
+    text-align: center;
     margin-block: 1.6rem;
 }
 

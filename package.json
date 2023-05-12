@@ -17,6 +17,7 @@
     "next": "13.x",
     "react": "18.x",
     "react-dom": "18.x",
+    "react-icons": "4.x",
     "typescript": "5.x"
   }
 }
