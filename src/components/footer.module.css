@@ -3,7 +3,7 @@
     justify-content: center;
     background: black;
     color: white;
-    min-height: 6rem;
+    min-height: 9.6rem;
     width: 100%;
     margin-top: auto;
 }
@@ -11,6 +11,6 @@
 .footerText {
     display: flex;
     align-items: center;
-    padding-inline: 1rem;
-    font-size: 1.8rem;
+    padding-inline: 1.6rem;
+    font-size: 2.9rem;
 }
