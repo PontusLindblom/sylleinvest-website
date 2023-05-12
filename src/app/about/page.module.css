@@ -1,1 +1,11 @@
-﻿/* Code will be added here */
+﻿.paragraphContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-block: 1.6rem;
+}
+
+.icon {
+    font-size: 10rem;
+    margin-right: 1.5rem;
+}
