@@ -1,5 +1,5 @@
 /*
-  Pontus Lindblom's Custom CSS Reset
+  ::: Pontus Lindblom's Custom CSS Reset :::
   
   Inspired by these Custom CSS Reset sources:
   https://www.joshwcomeau.com/css/custom-css-reset/
@@ -68,8 +68,25 @@ a {
 }
 
 /*  
-    Pontus Lindblom's Custom CSS Reset ends here
+    ::: Pontus Lindblom's Custom CSS Reset ends here :::
 */
+
+
+/* Change default font-size to 10px from 16px. Now, 1 rem = 10 px */
+html {
+    font-size: 62.5%;
+}
+
+/* Restore 32px font-size and make titles look better */
+h1 {
+    font-size: 3.2rem;
+    margin-block: 1.6rem;
+}
+
+/* Make text more readable */
+p {
+    font-size: 1.9rem;
+}
 
 /* Allows for a responsive footer design */
 body {
@@ -83,15 +100,5 @@ body {
     flex-direction: column;
     align-self: center;
     align-items: center;
-    width: 33rem;
-}
-
-/* Make titles look better */
-h1 {
-    margin-block: 1rem;
-}
-
-/* Make text more readable by going to 19.2 px from 16 px */
-p {
-    font-size: 1.2rem;
+    width: 52.8rem;
 }
