@@ -1,9 +1,11 @@
-﻿export default function Contact() {
+﻿export default function Page() {
     return (
         <div>
-            <h1>Contact information</h1>
+            <h1>Contact Information</h1>
             <p>
-                You can reach me at pontus@sylleinvest.com.<br/>
+                You can reach me at pontus@sylleinvest.com.
+            </p>
+            <p>
                 I read all mails, but I can't promise to respond to everyone.
             </p>
         </div>
