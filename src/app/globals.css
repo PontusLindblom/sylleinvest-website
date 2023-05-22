@@ -77,16 +77,43 @@ html {
     font-size: 62.5%;
 }
 
-/* Restore 32px font-size and make titles look better */
+/* Restore 32px font-size and add margin to make titles look better */
 h1 {
     font-size: 3.2rem;
     text-align: center;
     margin-block: 1.6rem;
 }
 
+/* Restore 26px font-size */
+h2 {
+    font-size: 2.6rem;
+}
+
+/* Restore 22px font-size */
+h3 {
+    font-size: 2.2rem;
+}
+
 /* Make text more readable */
 p {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+}
+
+/* Show decimal numbers again (css reset removed ALL styling) */
+ol {
+    list-style-type: decimal;
+    font-size: 1.8rem;
+    padding-left: 2.5rem;
+    margin-bottom: 1.6rem;
+}
+
+/* Show bullets again (css reset removed ALL styling) */
+ul {
+    list-style-type: disc;
+    font-size: 1.8rem;
+    padding-left: 2.5rem;
+    margin-bottom: 1.6rem;
 }
 
 /* Allows for a responsive footer design */
@@ -97,9 +124,6 @@ body {
 
 /* Ensures the content of the page stays in the center */
 .content-container {
-    display: flex;
-    flex-direction: column;
     align-self: center;
-    align-items: center;
-    width: 52.8rem;
+    width: 60rem;
 }
