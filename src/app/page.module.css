@@ -1,1 +1,33 @@
-/* Code will be added here */
+.blogContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogPost {
+    display: flex;
+    margin-block: 0.5rem;
+    border: 0.2rem solid black;
+    padding: 0.5rem 0.8rem;
+}
+
+.publishDate {
+    flex: 15%;
+    font-style: italic;
+    font-size: 1.8rem;
+    text-align: center;
+    align-self: center;
+}
+
+.lineSeparator {
+    border-left: 0.2rem solid black;
+    height: 3.8rem;
+    align-self: center;
+    margin-inline: 0.8rem;
+}
+
+.headline{
+    flex: 85%;
+    align-self: center;
+    text-align: center;
+    font-size: 2.4rem;
+}

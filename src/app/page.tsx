@@ -1,9 +1,51 @@
 import styles from './page.module.css'
+import Link from "next/link";
 
 export default function Home() {
     return (
-        <main className={styles.main}>
-            <h1>Hello World!</h1>
-        </main>
+        <div>
+            <h1>Blog Updates</h1>
+            <div className={styles.blogContainer}>
+                <Link href="/blog/summary-of-lux-strategy-call/" className={styles.blogPost}>
+                    <div className={styles.publishDate}>Mar 31<br/>2023</div>
+                    <div className={styles.lineSeparator}></div>
+                    <div className={styles.headline}>
+                        Summary of Newlox's Strategy Call
+                    </div>
+                </Link>
+
+                <Link href="/blog/exam-and-new-job/" className={styles.blogPost}>
+                    <div className={styles.publishDate}>Aug 28<br/>2022</div>
+                    <div className={styles.lineSeparator}></div>
+                    <div className={styles.headline}>
+                        Exam, new job, video release!
+                    </div>
+                </Link>
+
+                <Link href="/blog/summary-of-lux-zoom-call/" className={styles.blogPost}>
+                    <div className={styles.publishDate}>July 23<br/>2022</div>
+                    <div className={styles.lineSeparator}></div>
+                    <div className={styles.headline}>
+                        Summary of Newlox's Zoom Call
+                    </div>
+                </Link>
+
+                <Link href="/blog/interview-with-lux-ceo/" className={styles.blogPost}>
+                    <div className={styles.publishDate}>May 12<br/>2022</div>
+                    <div className={styles.lineSeparator}></div>
+                    <div className={styles.headline}>
+                        Interview with CEO of Newlox Gold
+                    </div>
+                </Link>
+
+                <Link href="/blog/website-launched/" className={styles.blogPost}>
+                    <div className={styles.publishDate}>Apr 19<br/>2022</div>
+                    <div className={styles.lineSeparator}></div>
+                    <div className={styles.headline}>
+                        Sylleinvest.com website launched
+                    </div>
+                </Link>
+            </div>
+        </div>
     )
 }
