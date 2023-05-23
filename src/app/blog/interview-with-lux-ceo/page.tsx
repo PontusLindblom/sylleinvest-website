@@ -85,7 +85,7 @@ export default function Page() {
             </p>
 
             <p>
-                <i>
+                <em>
                     Personal note: Ryan mentioned trying to avoid getting people
                     fixated on near-term goals that can shift all over the
                     place. What matters for them is the long-term, creating a
@@ -94,7 +94,7 @@ export default function Page() {
                     too focused on the near-term catalysts makes it easy to lose
                     sight of the big picture, but one should of course always be
                     critical of what is conveyed and what is delivered.
-                </i>
+                </em>
             </p>
 
             <h2>Expansion outside of Costa Rica</h2>
@@ -223,13 +223,13 @@ export default function Page() {
                 operations is to make the world better.
             </p>
             <p>
-                <i>
+                <em>
                     Personal note: I am uncertain if Newlox is currently using
                     the chemical solution (backend) in production. And
                     currently, they do not seem to be using the silver plate
                     solution (frontend), but it appears that the silver plate
                     solution might end up in production very soon.
-                </i>
+                </em>
             </p>
             
             <h2>Misc.</h2>
