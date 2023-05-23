@@ -125,5 +125,6 @@ body {
 /* Ensures the content of the page stays in the center */
 .content-container {
     align-self: center;
-    width: 60rem;
+    max-width: 60rem;
+    width: 100%;
 }
