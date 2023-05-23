@@ -4,13 +4,28 @@
     background: black;
     color: white;
     min-height: 9.6rem;
-    width: 100%;
     margin-top: auto;
 }
 
-.footerText {
+.footerContainer p {
+    margin: 0;
+}
+
+.footerItem {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding-inline: 1.6rem;
-    font-size: 2.9rem;
+    font-size: 1.8rem;
+}
+
+.socialIcons {
+    display: flex;
+    padding-block: 0.5rem;
+    font-size: 3.3rem;
+}
+
+.marginInline {
+    margin-inline: 2.9rem;
 }
