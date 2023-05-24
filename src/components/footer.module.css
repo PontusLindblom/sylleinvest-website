@@ -20,12 +20,18 @@
     font-size: 1.8rem;
 }
 
+@media screen and (max-width: 625px) {
+    .hideIfNarrow {
+        display: none;
+    }
+}
+
 .socialIcons {
     display: flex;
     padding-block: 0.5rem;
     font-size: 3.3rem;
 }
 
-.marginInline {
-    margin-inline: 2.9rem;
+.icon {
+    margin-inline: 1.5rem;
 }

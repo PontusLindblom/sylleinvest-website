@@ -9,20 +9,22 @@ const Footer = () => {
                 <strong>Sylle Invest</strong>
                 <div className={styles.socialIcons}>
                     <Link href={"https://www.youtube.com/sylleinvest"}>
-                        <FaYoutube aria-label={"YouTube Logo"}/>
+                        <FaYoutube aria-label={"YouTube Logo"}
+                                   className={styles.icon}/>
                     </Link>
                     <Link href={"https://twitter.com/sylleinvest"}>
                         <FaTwitter aria-label={"Twitter Logo"}
-                                   className={styles.marginInline}/>
+                                   className={styles.icon}/>
                     </Link>
                     <Link href={"https://www.patreon.com/sylleinvest"}>
-                        <FaPatreon aria-label={"Patreon Logo"}/>
+                        <FaPatreon aria-label={"Patreon Logo"}
+                                   className={styles.icon}/>
                     </Link>
                 </div>
                 <p>Brings knowledge to investing</p>
             </div>
 
-            <div className={styles.footerItem}>
+            <div className={`${styles.footerItem} ${styles.hideIfNarrow}`}>
                 <strong>Disclaimer</strong>
                 <p>I am no financial advisor</p>
                 <p>Only spend what you can afford to lose</p>
