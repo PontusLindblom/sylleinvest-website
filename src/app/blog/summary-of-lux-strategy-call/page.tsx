@@ -3,7 +3,7 @@
 export default function Page() {
     return (
         <div>
-            <h1>Summary of Newlox's Strategy Call</h1>
+            <h1>Summary of Newlox&#39;s Strategy Call</h1>
             <div className={styles.publishDate}>Published 2023-03-31</div>
 
             <h2>Plant 1 - Oro Roca, Costa Rica</h2>
@@ -12,9 +12,10 @@ export default function Page() {
                 productivity rose again in the fourth quarter.
             </p>
             <p>
-                They've implemented several technical improvements over the fall
-                and are starting to see productivity increase more quickly. They
-                expect these results to be reflected in their Q1 financials.
+                They&#39;ve implemented several technical improvements over the
+                fall and are starting to see productivity increase more quickly.
+                They expect these results to be reflected in their Q1
+                financials.
             </p>
             <p>
                 The plan for 2023 is to continue production increases and
@@ -109,7 +110,7 @@ export default function Page() {
                 They are pretty much hitting that profitability spot now.
             </p>
             <p>
-                They're still in the talks for a Plant in Brazil.
+                They&#39;re still in the talks for a Plant in Brazil.
             </p>
             <p>
                 OAR is a bonus of the company. They did not go ahead with the
@@ -120,10 +121,10 @@ export default function Page() {
 
             <h2>Personal Comment</h2>
             <p>
-                I'm pleased that Newlox hosted a Strategy Call to provide us
-                with a welcome update on their progress and to answer investors'
-                questions. It was a well-organized call, and I recommend you
-                look at it when it becomes available.
+                I&#39;m pleased that Newlox hosted a Strategy Call to provide us
+                with a welcome update on their progress and to answer
+                investors&#39; questions. It was a well-organized call, and I
+                recommend you look at it when it becomes available.
             </p>
             <p>
                 The update was positive overall, and a lot of transparency was

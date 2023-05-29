@@ -10,7 +10,7 @@ export default function Home() {
                     <div className={styles.publishDate}>Mar 31<br/>2023</div>
                     <div className={styles.lineSeparator}></div>
                     <div className={styles.headline}>
-                        Summary of Newlox's Strategy Call
+                        Summary of Newlox&#39;s Strategy Call
                     </div>
                 </Link>
 
@@ -26,7 +26,7 @@ export default function Home() {
                     <div className={styles.publishDate}>July 23<br/>2022</div>
                     <div className={styles.lineSeparator}></div>
                     <div className={styles.headline}>
-                        Summary of Newlox's Zoom Call
+                        Summary of Newlox&#39;s Zoom Call
                     </div>
                 </Link>
 
