@@ -36,7 +36,8 @@ const Navbar = () => {
                     Contact
                 </Link>
 
-                <button className={`${styles.dropdownBtn} ${styles.hideIfWide}`}
+                <button aria-label={"Open the menu"}
+                        className={`${styles.dropdownBtn} ${styles.hideIfWide}`}
                         onClick={() => {
                             setDropdown((dropdown: boolean) => !dropdown);
                         }}>
