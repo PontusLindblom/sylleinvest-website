@@ -1,13 +1,27 @@
 ﻿.navbarContainer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     background: black;
     color: white;
     min-height: 6.4rem;
 }
 
+.navbarContainerExtended {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color: white;
+    min-height: 19rem;
+}
+
+.navbarMenu {
+    display: flex;
+    justify-content: center;
+}
+
 .navbarLogo {
-    padding-inline: 1.6rem;
+    padding-right: 1.6rem;
+    height: 6.4rem;
 }
 
 .navbarItem {
@@ -15,4 +29,46 @@
     align-items: center;
     padding-inline: 1.6rem;
     font-size: 2.9rem;
+}
+
+.navbarItemDropdown {
+    display: flex;
+    font-size: 2.9rem;
+    margin-block: 0.6rem;
+}
+
+.navbarItem:last-of-type {
+    padding-right: 0.8rem;
+}
+
+.dropdownBtn {
+    padding-inline: 1.6rem;
+    font-size: 4rem;
+    height: 6.4rem;
+}
+
+.navbarDropdown {
+    align-self: center;
+}
+
+.hide {
+    display: none;
+}
+
+@media (width < 535px) {
+    .hideIfNarrow {
+        display: none;
+    }
+}
+
+@media (width >= 535px) {
+    .hideIfWide {
+        display: none;
+    }
+}
+
+@media (width >= 535px) {
+    .limitHeightIfWide {
+        min-height: 6.4rem;
+    }
 }

@@ -67,6 +67,12 @@ a {
     text-decoration: none;
 }
 
+/* Remove button styling */
+button {
+    all: unset;
+    cursor: pointer;
+}
+
 /*  
     ::: Pontus Lindblom's Custom CSS Reset ends here :::
 */
