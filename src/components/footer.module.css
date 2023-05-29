@@ -16,11 +16,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-inline: 1.6rem;
     font-size: 1.8rem;
 }
 
-@media screen and (max-width: 625px) {
+.footerItem:last-of-type {
+    padding-left: 3.2rem;
+}
+
+@media screen and (max-width: 599px) {
     .hideIfNarrow {
         display: none;
     }
