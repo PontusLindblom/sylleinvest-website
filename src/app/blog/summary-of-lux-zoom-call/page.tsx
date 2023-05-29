@@ -3,7 +3,7 @@
 export default function Page() {
     return (
         <div>
-            <h1>Summary of Newlox's Zoom Call</h1>
+            <h1>Summary of Newlox&#39;s Zoom Call</h1>
             <div className={styles.publishDate}>Published 2022-07-23</div>
 
             <h2>Plant 1 - Oro Roca, Costa Rica</h2>
