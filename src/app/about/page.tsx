@@ -8,9 +8,9 @@ export default function Page() {
             <div className={styles.paragraphContainer}>
                 <FaBook className={styles.icon}/>
                 <div className={styles.aboutText}>
-                    <h3>
+                    <h2>
                         My Story
-                    </h3>
+                    </h2>
                     <p>
                         My story began at Chalmers University of Technology,
                         where I was introduced to finance by a friend. I&#39;ve
@@ -26,9 +26,9 @@ export default function Page() {
             <div className={styles.paragraphContainer}>
                 <FaBullseye className={styles.icon}/>
                 <div className={styles.aboutText}>
-                    <h3>
+                    <h2>
                         My Mission
-                    </h3>
+                    </h2>
                     <p>
                         Communication is complicated, which is evident
                         when investors worldwide have trouble grasping what
@@ -36,7 +36,7 @@ export default function Page() {
                         researching the companies and simplify what they do so
                         that investors can understand their business and make
                         more informed investing decisions. Simply put, my
-                        mission is to "Bring knowledge to investing".
+                        mission is to &#34;Bring knowledge to investing&#34;.
                     </p>
                 </div>
             </div>
