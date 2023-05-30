@@ -6,6 +6,12 @@
 }
 
 .icon {
+    display: flex;
+    flex: 10%;
     font-size: 10rem;
     margin-right: 1.5rem;
+}
+
+.aboutText {
+    flex: 90%;
 }
