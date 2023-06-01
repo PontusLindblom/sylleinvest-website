@@ -1,8 +1,15 @@
 ﻿.publishDate {
     display: flex;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-style: italic;
     margin-top: -1.6rem;
-    margin-bottom: 1.6rem;
+}
+
+.h2Padding {
+    padding-block: 1.6rem 0.6rem;
+}
+
+.h3Padding {
+    padding-top: 0.5rem;
 }
