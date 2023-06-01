@@ -1,6 +1,9 @@
 import './globals.css'
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import {Roboto_Flex} from 'next/font/google';
+
+const robotoFlex = Roboto_Flex({ subsets: ['latin'] });
 
 export const metadata = {
     title: 'Sylle Invest',
@@ -15,7 +18,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-        <body>
+        <body className={robotoFlex.className}>
             <Navbar/>
             <main className='content-container'>
                 {children}
