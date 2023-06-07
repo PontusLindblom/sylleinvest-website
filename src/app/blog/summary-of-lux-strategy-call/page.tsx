@@ -3,13 +3,13 @@
 export default function Page() {
     return (
         <div>
-            <h1>Summary of Newlox&#39;s Strategy Call</h1>
+            <h1>Summary of Newlox’s Strategy Call</h1>
             <div className={styles.publishDate}>Published 2023-03-31</div>
 
             <h2 className={styles.h2Padding}>Plant 1 - Oro Roca, Costa Rica</h2>
             <p>
                 Productivity increased quarter over quarter last year, and
-                productivity rose again in the fourth quarter. They&#39;ve
+                productivity rose again in the fourth quarter. They’ve
                 implemented several technical improvements over the fall and are
                 starting to see productivity increase more quickly. They expect
                 these results to be reflected in their Q1 financials. The plan
@@ -72,7 +72,7 @@ export default function Page() {
             <ul>
                 <li>They are pretty much hitting that profitability spot now.
                 </li>
-                <li>They&#39;re still in the talks for a Plant in Brazil.</li>
+                <li>They’re still in the talks for a Plant in Brazil.</li>
                 <li>OAR is a bonus of the company. They did not go ahead with
                     the OAR testing during the summer or fall of last year as
                     the focus was on the metallurgical work at Plant 1. They
@@ -83,10 +83,10 @@ export default function Page() {
 
             <h2 className={styles.h2Padding}>Personal Comment</h2>
             <p>
-                I&#39;m pleased that Newlox hosted a Strategy Call to provide us
-                with a welcome update on their progress and to answer
-                investors&#39; questions. It was a well-organized call, and I
-                recommend you look at it when it becomes available.
+                I’m pleased that Newlox hosted a Strategy Call to provide us
+                with a welcome update on their progress and to answer investors’
+                questions. It was a well-organized call, and I recommend you
+                look at it when it becomes available.
             </p>
             <p>
                 The update was positive overall, and a lot of transparency was
