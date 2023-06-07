@@ -13,9 +13,9 @@ export default function Page() {
                     </h2>
                     <p>
                         My story began at Chalmers University of Technology,
-                        where I was introduced to finance by a friend. I&#39;ve
-                        been hooked ever since. I&#39;m an analytic person that
-                        loves simplifying complex things so that everyone can
+                        where I was introduced to finance by a friend. I’ve been
+                        hooked ever since. I’m an analytic person that loves
+                        simplifying complex things so that everyone can
                         understand, and I found that the finance world lacks
                         this skill. I mainly focus on the North American markets
                         as most of my investor contacts reside in that area.
@@ -36,7 +36,7 @@ export default function Page() {
                         researching the companies and simplify what they do so
                         that investors can understand their business and make
                         more informed investing decisions. Simply put, my
-                        mission is to &#34;Bring knowledge to investing&#34;.
+                        mission is to “Bring knowledge to investing“.
                     </p>
                 </div>
             </div>

@@ -3,19 +3,18 @@
 export default function Page() {
     return (
         <div>
-            <h1>Summary of Newlox&#39;s Zoom Call</h1>
+            <h1>Summary of Newlox’s Zoom Call</h1>
             <div className={styles.publishDate}>Published 2022-07-23</div>
 
             <h2 className={styles.h2Padding}>Plant 1 - Oro Roca, Costa Rica</h2>
             <p>
                 The plant is currently in production and ramping up. Since Q3,
                 they have increased productivity and revenues month-over-month
-                consistently. They would&#39;ve liked to have come further, but
-                they are still pleased that they are growing every month.
-                Earlier this year (May 12th, 2022), they announced they were
-                testing the 50 tpd level again, where they got stuck in the
-                fall. They are still at around 50 tpd and have yet to go far
-                beyond that level.
+                consistently. They would’ve liked to have come further, but they
+                are still pleased that they are growing every month. Earlier
+                this year (May 12th, 2022), they announced they were testing the
+                50 tpd level again, where they got stuck in the fall. They are
+                still at around 50 tpd and have yet to go far beyond that level.
             </p>
 
             <h2 className={styles.h2Padding}>Plant 2 - Boston, Costa Rica</h2>
@@ -28,7 +27,7 @@ export default function Page() {
                 primary focus is the conveyor system and other material handling
                 equipment under construction by local contractors. The pictures
                 from the presentation showed progress on construction since the
-                company&#39;s video from May 11th, 2022.
+                company’s video from May 11th, 2022.
             </p>
             <p>
                 The construction should be done fairly soon. Testing will be
@@ -46,12 +45,12 @@ export default function Page() {
                 permitting is underway for a 1,000 tpd operation. The permitting
                 process is expected to take 9-12 months. They will start at 250
                 tpd and grow to 1,000 tpd. As the permitting is for 1,000 tpd,
-                they don&#39;t need to seek permits for increased production. It
-                is a semi-modular design where they can increase production as
-                they go. The cut-off grade is 9 g/ton; at 1,000 tpd, the plant
-                will produce more than 80,000 oz/year. Some companies are
-                already processing material mined by local miners, so the
-                practice is well-known and accepted.
+                they don’t need to seek permits for increased production. It is
+                a semi-modular design where they can increase production as they
+                go. The cut-off grade is 9 g/ton; at 1,000 tpd, the plant will
+                produce more than 80,000 oz/year. Some companies are already
+                processing material mined by local miners, so the practice is
+                well-known and accepted.
             </p>
 
             <h2 className={styles.h2Padding}>The Brazil Expansion</h2>
@@ -65,11 +64,11 @@ export default function Page() {
                 They have around $3M. Plant 1 requires no more capital, and most
                 of the money has already been spent in Plant 2. It will require
                 some cash during the commercialization and ramp-up, and
-                that&#39;s fully funded. The only place Newlox may need to raise
+                that’s fully funded. The only place Newlox may need to raise
                 some capital is for the construction of new and larger projects.
-                Money becomes easier to raise the further they&#39;ve gotten.
-                There is no near-term need to raise money; if they do, it will
-                most likely be non-dilutive (e.g., a bank loan).
+                Money becomes easier to raise the further they’ve gotten. There
+                is no near-term need to raise money; if they do, it will most
+                likely be non-dilutive (e.g., a bank loan).
             </p>
 
             <h2 className={styles.h2Padding}>Misc.</h2>
@@ -81,8 +80,8 @@ export default function Page() {
                 think it would be nice to be listed before the end of the year.
                 When Ryan was asked why there is no insider buying at these
                 levels, he replied that he is basically all in on Newlox with
-                pretty much all his money, so he doesn&#39;t have much more to
-                put into it. There is around 20% insider ownership.
+                pretty much all his money, so he doesn’t have much more to put
+                into it. There is around 20% insider ownership.
             </p>
 
             <h2 className={styles.h2Padding}>Personal Comment</h2>

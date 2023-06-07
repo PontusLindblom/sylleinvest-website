@@ -10,11 +10,11 @@ export default function Page() {
                 Got my MSC!
             </h2>
             <p>
-                After six years of school, I&#39;ve finally got my Master&#39;s
-                degree in Computer Science! As a person who loves working, this
-                is a huge achievement for me! I can finally go back to having
-                work colleagues, and most of all, I can relax during my spare
-                time (which is almost impossible as a student).
+                After six years of school, I’ve finally got my Master’s degree
+                in Computer Science! As a person who loves working, this is a
+                huge achievement for me! I can finally go back to having work
+                colleagues, and most of all, I can relax during my spare time
+                (which is almost impossible as a student).
             </p>
 
             <h2 className={styles.h2Padding}>
@@ -22,9 +22,9 @@ export default function Page() {
             </h2>
             <p>
                 Things move fast. Getting my MSC on Tuesday, and start working
-                as an IT-consultant the following Monday. I still don&#39;t know
-                all the details of my next assignment, but I&#39;ll tackle it
-                when I get there! I can already smell the scent of adventure!
+                as an IT-consultant the following Monday. I still don’t know all
+                the details of my next assignment, but I’ll tackle it when I get
+                there! I can already smell the scent of adventure!
             </p>
 
             <h2 className={styles.h2Padding}>
@@ -32,9 +32,9 @@ export default function Page() {
             </h2>
             <p>
                 Before running away (and being overwhelmed) by the new job, I
-                managed to release my mid-year review of Quantum eMotion.
-                It&#39;s been a great year so far for the company, and I look
-                forward to seeing how the rest of 2022 turns out!
+                managed to release my mid-year review of Quantum eMotion. It’s
+                been a great year so far for the company, and I look forward to
+                seeing how the rest of 2022 turns out!
             </p>
         </div>
     )
