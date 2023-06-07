@@ -5,8 +5,8 @@ import {FaYoutube, FaTwitter, FaPatreon} from "react-icons/fa";
 const Footer = () => {
     return (
         <div className={styles.footerContainer}>
-            <div className={styles.footerItem}>
-                <strong>Sylle Invest</strong>
+            <div className={`${styles.footerItem} ${styles.centerIfNarrow}`}>
+            <strong>Sylle Invest</strong>
                 <div className={styles.socialIcons}>
                     <Link href={"https://www.youtube.com/sylleinvest"}>
                         <FaYoutube aria-label={"YouTube Logo"}
@@ -18,7 +18,7 @@ const Footer = () => {
                     </Link>
                     <Link href={"https://www.patreon.com/sylleinvest"}>
                         <FaPatreon aria-label={"Patreon Logo"}
-                                   className={styles.icon}/>
+                                   className={styles.iconLast}/>
                     </Link>
                 </div>
                 <p>Brings knowledge to investing</p>
