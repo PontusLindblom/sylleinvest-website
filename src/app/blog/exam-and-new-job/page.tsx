@@ -3,11 +3,11 @@
 export default function Page() {
     return (
         <div>
-            <h1>Exam, new job, video release!</h1>
+            <h1>Exam, New Job, Video Release</h1>
             <div className={styles.publishDate}>Published 2022-08-28</div>
 
             <h2 className={styles.h2Padding}>
-                Master&#39;s degree in Computer Science!
+                Got my MSC!
             </h2>
             <p>
                 After six years of school, I&#39;ve finally got my Master&#39;s
@@ -28,7 +28,7 @@ export default function Page() {
             </p>
 
             <h2 className={styles.h2Padding}>
-                Mid-year review of Quantum eMotion published
+                Mid-year Review of QNC
             </h2>
             <p>
                 Before running away (and being overwhelmed) by the new job, I

@@ -18,7 +18,7 @@ export default function Home() {
                     <div className={styles.publishDate}>Aug 28<br/>2022</div>
                     <div className={styles.lineSeparator}></div>
                     <div className={styles.headline}>
-                        Exam, new job, video release!
+                        Exam, New Job, Video Release
                     </div>
                 </Link>
 
@@ -34,7 +34,7 @@ export default function Home() {
                     <div className={styles.publishDate}>May 12<br/>2022</div>
                     <div className={styles.lineSeparator}></div>
                     <div className={styles.headline}>
-                        Interview with CEO of Newlox Gold
+                        Interview With CEO of Newlox Gold
                     </div>
                 </Link>
 
@@ -42,7 +42,7 @@ export default function Home() {
                     <div className={styles.publishDate}>Apr 19<br/>2022</div>
                     <div className={styles.lineSeparator}></div>
                     <div className={styles.headline}>
-                        Sylleinvest.com website launched
+                        Sylleinvest.com Website Launched
                     </div>
                 </Link>
             </div>
