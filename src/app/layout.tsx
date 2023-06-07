@@ -8,7 +8,7 @@ const robotoFlex = Roboto_Flex({ subsets: ['latin'] });
 export const metadata = {
     title: 'Sylle Invest',
     description: 'Brings knowledge to investing',
-    icons: 'favicon.webp'
+    icons: '/favicon.webp'
 }
 
 export default function RootLayout({
