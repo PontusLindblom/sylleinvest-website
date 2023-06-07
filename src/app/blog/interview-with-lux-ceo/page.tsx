@@ -3,11 +3,11 @@
 export default function Page() {
     return (
         <div>
-            <h1>Interview with CEO of Newlox Gold</h1>
+            <h1>Interview With CEO of Newlox Gold</h1>
             <div className={styles.publishDate}>Published 2022-05-12</div>
 
             <h2 className={styles.h2Padding}>Plant 1 - Oro Roca, Costa Rica</h2>
-            <h3>The ramp-up</h3>
+            <h3>The Ramp-up</h3>
             <p>
                 They’re just passing through the 50 tons/day level again, where
                 they earlier had metallurgical issues. They’ve applied the new
@@ -20,7 +20,7 @@ export default function Page() {
                 running and needs to be fixed.
             </p>
 
-            <h3 className={styles.h3Padding}>The ramp-up process</h3>
+            <h3 className={styles.h3Padding}>The Ramp-up Process</h3>
             <p>
                 The plant has a frontend and a backend. The frontend is the
                 concentrating part of the plant, and the backend takes the
@@ -39,7 +39,9 @@ export default function Page() {
                 in a physical aspect and from a metallurgical point of view.
             </p>
 
-            <h3 className={styles.h3Padding}>Q4 production and Q3 financials</h3>
+            <h3 className={styles.h3Padding}>
+                Q4 Production and Q3 Financials
+            </h3>
             <p>
                 The Q4 gold production was similar to Q3, as they still hadn’t
                 received the reagents. They were trying various things to
@@ -51,7 +53,7 @@ export default function Page() {
                 dramatic increases.
             </p>
 
-            <h3 className={styles.h3Padding}>Cut-off grade in tailings</h3>
+            <h3 className={styles.h3Padding}>Cut-off Grade in Tailings</h3>
             <p>
                 9 g/ton was selected as the cut-off grade because it can be
                 sourced at all times without too much difficulty. Part of the
@@ -62,14 +64,14 @@ export default function Page() {
                 content slightly above 9 g/ton going forward.
             </p>
 
-            <h3 className={styles.h3Padding}>Productivity news release</h3>
+            <h3 className={styles.h3Padding}>Productivity News Release</h3>
             <p>
                 An update on productivity is coming, but they want to be careful
                 when announcing it to ensure that things are working without a
                 doubt. Ryan could not give any more details in the interview as
                 the productivity numbers are not public information yet.
             </p>
-            
+
             <h2 className={styles.h2Padding}>Plant 2 - Boston, Costa Rica</h2>
             <p>
                 The equipment installation is proceeding nicely. The next step
@@ -97,7 +99,9 @@ export default function Page() {
                 </em>
             </p>
 
-            <h2 className={styles.h2Padding}>Expansion outside of Costa Rica</h2>
+            <h2 className={styles.h2Padding}>
+                Expansion Outside of Costa Rica
+            </h2>
             <p>
                 They’ve hired legal counsel in Canada specializing in Canadian
                 companies dealing in Brazil. They’re currently working on the
@@ -109,9 +113,9 @@ export default function Page() {
                 expect the Brazil contract to be the first one signed. There is
                 currently more deal flow than they can handle.
             </p>
-            
+
             <h2 className={styles.h2Padding}>OAR (Organic Aqua Regia)</h2>
-            <h3>What they’re testing</h3>
+            <h3>What They Are Testing</h3>
             <p>
                 The in-field testing they plan to/are doing with the OAR
                 technology:
@@ -141,7 +145,7 @@ export default function Page() {
                 made.
             </p>
 
-            <h3 className={styles.h3Padding}>Many have tried before</h3>
+            <h3 className={styles.h3Padding}>Many Have Tried Before</h3>
             <p>
                 Many people have tried selling solutions (like OAR) that require
                 changing the entire chemical metallurgy of the plant. The
@@ -155,7 +159,7 @@ export default function Page() {
                 in it. That’s Newlox’s strategy.
             </p>
 
-            <h3 className={styles.h3Padding}>Designed with OAR in mind</h3>
+            <h3 className={styles.h3Padding}>Designed With OAR in Mind</h3>
             <p>
                 The plants are designed modularly. The backend of the plant can
                 be removed, and the OAR can be slotted in without changing the
@@ -170,7 +174,7 @@ export default function Page() {
             </p>
 
             <h2 className={styles.h2Padding}>Tailings</h2>
-            <h3>Bad, good, best</h3>
+            <h3>Bad, Good, Best</h3>
             <p>
                 The tailings that leave Newlox, go to a tailings pond that is
                 fully permitted, and that’s the final destination. It’s a bad,
@@ -196,7 +200,7 @@ export default function Page() {
                 </li>
             </ul>
 
-            <h3 className={styles.h3Padding}>The remediation idea</h3>
+            <h3 className={styles.h3Padding}>The Remediation Idea</h3>
             <p>
                 The idea for their remediation plants (tailings plants) is to
                 have a silver plate solution in the frontend that removes most
@@ -213,7 +217,7 @@ export default function Page() {
                 operating mining shafts.
             </p>
 
-            <h3 className={styles.h3Padding}>Solidified mercury</h3>
+            <h3 className={styles.h3Padding}>Solidified Mercury</h3>
             <p>
                 The solidified mercury (the by-product of extracting the
                 mercury) is handed over to the ministry in Costa Rica for free.
@@ -231,7 +235,7 @@ export default function Page() {
                     solution might end up in production very soon.
                 </em>
             </p>
-            
+
             <h2 className={styles.h2Padding}>Misc.</h2>
             <h3>OTCQB</h3>
             <p>
@@ -248,7 +252,7 @@ export default function Page() {
                 she’s occupied with the AGM, financials, and audit.
             </p>
 
-            <h3 className={styles.h3Padding}>Director compensation</h3>
+            <h3 className={styles.h3Padding}>Director Compensation</h3>
             <p>
                 When asked why the two directors, David C. Carkeek and Gary
                 MacDonald, have not received any compensation in the fiscal
@@ -258,7 +262,7 @@ export default function Page() {
                 do occasional board meetings.
             </p>
 
-            <h3 className={styles.h3Padding}>The Newlox team</h3>
+            <h3 className={styles.h3Padding}>The Newlox Team</h3>
             <p>
                 Both new recruits, Frances (Corporate Secretary) and Wilmer (VP
                 of Operations), are adjusting well to their new roles in the
@@ -279,7 +283,9 @@ export default function Page() {
                 people Newlox has been working with in the past.
             </p>
 
-            <h3 className={styles.h3Padding}>Advisory board and expanding the team</h3>
+            <h3 className={styles.h3Padding}>
+                Advisory Board and Expanding the Team
+            </h3>
             <p>
                 Newlox has a strong advisory board and is increasing the amount
                 of time they work with them on strategic planning etc. Some

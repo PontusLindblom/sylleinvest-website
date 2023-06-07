@@ -1,7 +1,7 @@
 ﻿export default function Page() {
     return (
         <div>
-            <h1>This section is under construction</h1>
+            <h1>This Section Is Under Construction</h1>
         </div>
     )
 }
