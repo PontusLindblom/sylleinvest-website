@@ -1,17 +1,9 @@
-﻿.paragraphContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-block: 1.6rem;
+﻿.icon {
+    font-size: 2.6rem;
+    margin-left: 0.8rem;
 }
 
-.icon {
+.h2FlexMargin {
     display: flex;
-    flex: 10%;
-    font-size: 10rem;
-    margin-right: 1.5rem;
-}
-
-.aboutText {
-    flex: 90%;
+    margin-block: 1.6rem 0.6rem;
 }
