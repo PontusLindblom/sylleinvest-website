@@ -1,45 +1,41 @@
 ﻿import styles from "./page.module.css"
-import {FaBook, FaBullseye} from 'react-icons/fa';
+import {TbBook, TbTargetArrow} from "react-icons/tb";
 
 export default function Page() {
     return (
         <div>
             <h1>About Sylle Invest</h1>
-            <div className={styles.paragraphContainer}>
-                <FaBook className={styles.icon}/>
-                <div className={styles.aboutText}>
-                    <h2>
-                        My Story
-                    </h2>
-                    <p>
-                        My story began at Chalmers University of Technology,
-                        where I was introduced to finance by a friend. I’ve been
-                        hooked ever since. I’m an analytic person that loves
-                        simplifying complex things so that everyone can
-                        understand, and I found that the finance world lacks
-                        this skill. I mainly focus on the North American markets
-                        as most of my investor contacts reside in that area.
-                    </p>
-                </div>
-            </div>
+            
+            <h2 className={styles.h2FlexMargin}>
+                My Story <TbBook className={styles.icon}/>
+            </h2>
+            <p>
+                At the core, I’m a Software Engineer with a Master’s degree in
+                Computer Science from Chalmers University of Technology. My
+                daily life consists of creating smart IT solutions, like this
+                website. Another strong passion is as an investor, where I’ve
+                accumulated many years of experience in the North American
+                market.
+            </p>
+            <p>
+                I’m analytical and love simplifying complex subjects so anyone
+                can understand them. When starting my investor journey in the
+                micro-cap space, it quickly became apparent it was hard to find
+                simple and comprehensive due diligence. I wanted to change that,
+                and that’s why I started Sylle Invest.
+            </p>
 
-            <div className={styles.paragraphContainer}>
-                <FaBullseye className={styles.icon}/>
-                <div className={styles.aboutText}>
-                    <h2>
-                        My Mission
-                    </h2>
-                    <p>
-                        Communication is complicated, which is evident
-                        when investors worldwide have trouble grasping what
-                        public companies do. I try to bridge that gap by
-                        researching the companies and simplify what they do so
-                        that investors can understand their business and make
-                        more informed investing decisions. Simply put, my
-                        mission is to “Bring knowledge to investing“.
-                    </p>
-                </div>
-            </div>
+            <h2 className={styles.h2FlexMargin}>
+                My Mission <TbTargetArrow className={styles.icon}/>
+            </h2>
+            <p>
+                Communication is complicated, which is evident when investors
+                worldwide have trouble grasping what public micro-cap companies
+                do. I bridge that gap by researching and simplifying companies
+                so investors can understand their business and make informed
+                investing decisions. Simply put, my mission is to <em>Bring
+                Knowledge To Investing</em>.
+            </p>
         </div>
     )
 }
