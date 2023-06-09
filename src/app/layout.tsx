@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import {Roboto_Flex} from 'next/font/google';
 
-const robotoFlex = Roboto_Flex({ subsets: ['latin'] });
+const robotoFlex = Roboto_Flex({subsets: ['latin']});
 
 export const metadata = {
     title: 'Sylle Invest',

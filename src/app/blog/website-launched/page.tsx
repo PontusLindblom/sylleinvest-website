@@ -5,7 +5,7 @@ export default function Page() {
         <div>
             <h1>Sylleinvest.com Website Launched</h1>
             <div className={styles.publishDate}>Published 2022-04-19</div>
-            
+
             <h2 className={styles.h2Padding}>Sylleinvest.com v1.0 Is Live!</h2>
             <p>
                 More features will be added to the website as time passes by,
