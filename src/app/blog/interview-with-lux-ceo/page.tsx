@@ -7,7 +7,7 @@ export default function Page() {
             <div className={styles.publishDate}>Published 2022-05-12</div>
 
             <h2 className={styles.h2Padding}>Plant 1 - Oro Roca, Costa Rica</h2>
-            <h3>The Ramp-up</h3>
+            <h3 className={styles.h3Padding}>The Ramp-up</h3>
             <p>
                 They’re just passing through the 50 tons/day level again, where
                 they earlier had metallurgical issues. They’ve applied the new
@@ -115,7 +115,7 @@ export default function Page() {
             </p>
 
             <h2 className={styles.h2Padding}>OAR (Organic Aqua Regia)</h2>
-            <h3>What They Are Testing</h3>
+            <h3 className={styles.h3Padding}>What They Are Testing</h3>
             <p>
                 The in-field testing they plan to/are doing with the OAR
                 technology:
@@ -174,7 +174,7 @@ export default function Page() {
             </p>
 
             <h2 className={styles.h2Padding}>Tailings</h2>
-            <h3>Bad, Good, Best</h3>
+            <h3 className={styles.h3Padding}>Bad, Good, Best</h3>
             <p>
                 The tailings that leave Newlox, go to a tailings pond that is
                 fully permitted, and that’s the final destination. It’s a bad,
@@ -237,7 +237,7 @@ export default function Page() {
             </p>
 
             <h2 className={styles.h2Padding}>Misc.</h2>
-            <h3>OTCQB</h3>
+            <h3 className={styles.h3Padding}>OTCQB</h3>
             <p>
                 They stepped back from actively working on the uplisting as
                 other things took precedent. They’re probably going to restart

@@ -102,7 +102,6 @@ p {
     font-size: 1.6rem;
     margin-bottom: 1rem;
     line-height: 1.5;
-    text-align: justify;
 }
 
 /* Show decimal numbers again (css reset removed ALL styling) */
