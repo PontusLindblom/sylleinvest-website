@@ -3,7 +3,7 @@
     justify-content: center;
     background: black;
     color: white;
-    min-height: 10rem;
+    padding-block: 0.6rem;
     margin-top: auto;
 }
 
@@ -14,19 +14,18 @@
 .footerItem {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
     font-size: 1.8rem;
 }
 
-.footerItem:last-of-type {
-    align-items: flex-start;
-    padding-left: 3rem;
+.footerItem:first-of-type {
+    align-items: flex-end;
+    padding-right: 3rem;
+    margin-top: -0.1rem;
 }
 
 .socialIcons {
     display: flex;
-    padding-block: 0.6rem 0.4rem;
+    padding-block: 0.7rem 0.5rem;
     font-size: 3.6rem;
 }
 
@@ -46,6 +45,6 @@
 
 @media (width < 571px) {
     .centerIfNarrow {
-        align-items: center;
+        align-items: center !important;
     }
 }

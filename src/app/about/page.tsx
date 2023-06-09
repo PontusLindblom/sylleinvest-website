@@ -5,7 +5,7 @@ export default function Page() {
     return (
         <div>
             <h1>About Sylle Invest</h1>
-            
+
             <h2 className={styles.h2FlexMargin}>
                 My Story <TbBook className={styles.icon}/>
             </h2>

@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className={styles.footerContainer}>
             <div className={`${styles.footerItem} ${styles.centerIfNarrow}`}>
-            <strong>Sylle Invest</strong>
+                <strong>Sylle Invest</strong>
                 <div className={styles.socialIcons}>
                     <Link href={"https://www.youtube.com/sylleinvest"}>
                         <FaYoutube aria-label={"YouTube Logo"}

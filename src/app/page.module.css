@@ -1,13 +1,12 @@
-.blogContainer {
-    display: flex;
-    flex-direction: column;
-}
-
 .blogPost {
     display: flex;
-    margin-block: 0.5rem;
+    margin-top: 1rem;
     border: 0.2rem solid black;
     padding: 0.5rem 0.8rem;
+}
+
+.blogPost:first-of-type {
+    margin-top: 2rem;
 }
 
 .publishDate {
@@ -15,7 +14,6 @@
     font-style: italic;
     font-size: 1.8rem;
     text-align: center;
-    align-self: center;
 }
 
 .lineSeparator {
@@ -25,7 +23,7 @@
     margin-inline: 0.8rem;
 }
 
-.headline{
+.headline {
     flex: 85%;
     align-self: center;
     text-align: center;
