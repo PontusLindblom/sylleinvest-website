@@ -1,17 +1,39 @@
-### This website will replace https://www.sylleinvest.com/ when it contains the same level of functionality.
+# The website https://sylleinvest.com
 
-#### _The reason for this change is because the current website use CRA (Create React App) which contains too much functionality and dependencies. This project uses Next.js 13 which has less dependencies and comes with SSG (Static Site Generation) from the get go instead of using CSR (Client Side Rendering). The new way of rendering is better suited for a blog._
+## Overview
 
-## How to run the project
+This project is the finance blog https://sylleinvest.com. It is a static website
+that is built using the React framework Next.js 13.
 
-Run the code below and open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Requirements
+
+To run this project you
+need [Node.js 16.8 or later](https://nodejs.org/en/download/).
+
+## How to install
+
+You need to clone the repo and install the npm packages to run the project:
+
+```bash
+git clone https://github.com/PontusLindblom/sylleinvest-website.git
+npm install
+```
+
+## How to run
 
 ```bash
 npm run dev
 ```
 
-## API routes
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the
+result.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## How to deploy
 
-Files in the `/api/` directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm run build
+```
+
+An **out** folder with the HTML, CSS and JavaScript files will be created as
+this is a static website. Those files are then uploaded to the web server that
+hosts the website.
