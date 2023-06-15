@@ -85,7 +85,7 @@ export default function Page() {
             </p>
 
             <h2 className={styles.h2Padding}>Personal Comment</h2>
-            <p>
+            <p className={styles.marginToFooter}>
                 As the Zoom Call has not been published by the company yet, I
                 decided to make this summary for those that could not attend.
                 Ryan is a good speaker and I think he did a great job at

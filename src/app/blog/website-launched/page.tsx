@@ -7,7 +7,7 @@ export default function Page() {
             <div className={styles.publishDate}>Published 2022-04-19</div>
 
             <h2 className={styles.h2Padding}>Sylleinvest.com v1.0 Is Live!</h2>
-            <p>
+            <p className={styles.marginToFooter}>
                 More features will be added to the website as time passes by,
                 and if you find any bugs, please email them to
                 pontus@sylleinvest.com. The website was created from scratch by

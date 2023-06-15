@@ -28,7 +28,7 @@ export default function Page() {
             <h2 className={styles.h2FlexMargin}>
                 My Mission <TbTargetArrow className={styles.icon}/>
             </h2>
-            <p>
+            <p className={styles.marginToFooter}>
                 Communication is complicated, which is evident when investors
                 worldwide have trouble grasping what public micro-cap companies
                 do. I bridge that gap by researching and simplifying companies

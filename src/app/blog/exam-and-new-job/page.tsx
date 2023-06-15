@@ -30,7 +30,7 @@ export default function Page() {
             <h2 className={styles.h2Padding}>
                 Mid-year Review of QNC
             </h2>
-            <p>
+            <p className={styles.marginToFooter}>
                 Before running away (and being overwhelmed) by the new job, I
                 managed to release my mid-year review of Quantum eMotion. It’s
                 been a great year so far for the company, and I look forward to

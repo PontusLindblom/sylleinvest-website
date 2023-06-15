@@ -3,7 +3,7 @@
     justify-content: center;
     font-style: italic;
     font-size: 1.6rem;
-    margin-top: -1.6rem;
+    margin-block: -1.5rem 0.8rem;
 }
 
 .h2Padding {
@@ -12,4 +12,8 @@
 
 .h3Padding {
     padding-block: 0.4rem;
+}
+
+.marginToFooter {
+    margin-bottom: 1.8rem;
 }
