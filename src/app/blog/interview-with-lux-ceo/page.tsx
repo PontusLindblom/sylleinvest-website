@@ -286,7 +286,7 @@ export default function Page() {
             <h3 className={styles.h3Padding}>
                 Advisory Board and Expanding the Team
             </h3>
-            <p>
+            <p className={styles.marginToFooter}>
                 Newlox has a strong advisory board and is increasing the amount
                 of time they work with them on strategic planning etc. Some
                 advisors may come in on more formal positions as the company

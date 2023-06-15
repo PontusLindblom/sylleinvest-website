@@ -95,7 +95,7 @@ export default function Page() {
                 we must be aware that reality is not always kind, and we should
                 always be prepared for any outcome.
             </p>
-            <p>
+            <p className={styles.marginToFooter}>
                 The Q1 financials will show us if Plant 1 ramped up as they
                 anticipate it will, and the Q2 financials will give some light
                 on the Plant 2 production numbers. Plant 3 sounds almost too
