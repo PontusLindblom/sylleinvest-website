@@ -20,18 +20,19 @@ const Navbar = () => {
                     />
                 </Link>
 
-                <Link href="/about"
-                      className={`${styles.navbarItem} ${styles.hideIfNarrow}`}>
+                <Link href="/" className={`${styles.navbarItem} ${styles.hideIfNarrow}`}>
+                    Blog
+                </Link>
+
+                <Link href="/about" className={`${styles.navbarItem} ${styles.hideIfNarrow}`}>
                     About
                 </Link>
 
-                <Link href="/resources"
-                      className={`${styles.navbarItem} ${styles.hideIfNarrow}`}>
+                <Link href="/resources" className={`${styles.navbarItem} ${styles.hideIfNarrow}`}>
                     Resources
                 </Link>
 
-                <Link href="/contact"
-                      className={`${styles.navbarItem} ${styles.hideIfNarrow}`}>
+                <Link href="/contact" className={`${styles.navbarItem} ${styles.hideIfNarrow}`}>
                     Contact
                 </Link>
 
@@ -44,20 +45,20 @@ const Navbar = () => {
                 </button>
             </div>
 
-            <div
-                className={`${dropdown ? styles.navbarDropdown : styles.hide} ${styles.hideIfWide}`}>
-                <Link href="/about"
-                      className={`${styles.navbarItemDropdown}`}>
+            <div className={`${dropdown ? styles.navbarDropdown : styles.hide} ${styles.hideIfWide}`}>
+                <Link href="/" className={`${styles.navbarItemDropdown}`}>
+                    Blog
+                </Link>
+                
+                <Link href="/about" className={`${styles.navbarItemDropdown}`}>
                     About
                 </Link>
 
-                <Link href="/resources"
-                      className={`${styles.navbarItemDropdown}`}>
+                <Link href="/resources" className={`${styles.navbarItemDropdown}`}>
                     Resources
                 </Link>
 
-                <Link href="/contact"
-                      className={`${styles.navbarItemDropdown}`}>
+                <Link href="/contact" className={`${styles.navbarItemDropdown}`}>
                     Contact
                 </Link>
             </div>

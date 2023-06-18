@@ -16,7 +16,6 @@
 }
 
 .navbarLogo {
-    padding-right: 1.4rem;
     height: 6.4rem;
 }
 
@@ -25,6 +24,12 @@
     align-items: center;
     padding-inline: 1.4rem;
     font-size: 2.9rem;
+}
+
+/* This applies to the first navbarItem -- navbarItem:first-of-type did not work here for unknown reasons */
+.navbarItem:nth-of-type(2) {
+    padding-left: 0;
+    margin-left: 5rem;
 }
 
 .navbarItem:last-of-type {
@@ -43,6 +48,7 @@
 
 .dropdownBtn {
     padding-inline: 1.6rem;
+    margin-left: 2rem;
     font-size: 4rem;
     height: 6.4rem;
 }
@@ -51,19 +57,19 @@
     display: none;
 }
 
-@media (width < 571px) {
+@media (width < 675px) {
     .hideIfNarrow {
         display: none;
     }
 }
 
-@media (width >= 571px) {
+@media (width >= 675px) {
     .hideIfWide {
         display: none;
     }
 }
 
-@media (width >= 571px) {
+@media (width >= 675px) {
     .limitHeightIfWide {
         min-height: 6.4rem;
     }
