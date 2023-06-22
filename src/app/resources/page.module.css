@@ -8,6 +8,10 @@
     box-shadow: 0.2rem 0.2rem;
 }
 
+.resourceContainer:hover {
+    background: #f0f0f0;
+}
+
 .resourceContainer:first-of-type {
     margin-top: 2rem;
 }

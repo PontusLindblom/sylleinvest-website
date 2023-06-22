@@ -37,6 +37,14 @@
     margin-inline: 1.2rem 0;
 }
 
+.icon:hover {
+    color: #e3e3e3;
+}
+
+.iconLast:hover {
+    color: #e3e3e3;
+}
+
 @media (width < 571px) {
     .hideIfNarrow {
         display: none;
