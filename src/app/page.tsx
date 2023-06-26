@@ -47,7 +47,7 @@ export default function Home() {
                 </p>
             </Link>
 
-            <Link href="/blog/website-launched/" className={styles.blogPost}>
+            <Link href="/blog/website-launched/" className={`${styles.blogPost} ${styles.marginToFooter}`}>
                 <h2>
                     Sylleinvest.com Website Launched
                 </h2>
