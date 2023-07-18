@@ -21,6 +21,65 @@
     margin-block: 0.5rem;
 }
 
-.tickerSymbols {
+.lineSeparatorLight {
+    border-top: 0.1rem solid grey;
+    margin-block: 2.2rem 0.6rem;
+}
+
+.ticker {
     margin-bottom: 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.logoLeftMargin {
+    margin-left: 1rem;
+}
+
+.updatedDate {
+    font-style: italic;
+    font-size: 1.6rem;
+    margin-block: -1.5rem 1.8rem;
+}
+
+.tocContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0.8rem;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.tocText {
+    font-size: 2rem;
+    margin-block: 0.4rem;
+}
+
+.h2Padding {
+    padding-block: 1.6rem 0.6rem;
+}
+
+.h3Padding {
+    padding-block: 1.2rem 0.4rem;
+}
+
+.noMarginBottom {
+    margin-bottom: 0;
+}
+
+.graphPadding {
+    padding-block: 0.6rem 0.4rem;
+}
+
+.graphPadding:first-of-type {
+    padding-top: 1rem;
+}
+
+.marginToFooter {
+    margin-bottom: 1.8rem;
 }

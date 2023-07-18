@@ -6,16 +6,14 @@ export default function Page() {
         <div>
             <h1>Research Resources</h1>
 
-            <Link href="/resources/placeholder" className={styles.resourceContainer}>
-                <h2>Under Construction</h2>
+            <Link href="/resources/newlox-gold-ventures" className={styles.resourceContainer}>
+                <h2>Newlox Gold Ventures</h2>
                 <div className={styles.lineSeparator}/>
-                <p className={styles.tickerSymbols}>Ticker: XX, Ticker: XX, Ticker: XX</p>
+                <p className={styles.ticker}>CSE:LUX, OTC Pink:NWLXF, Frankfurt:NGO</p>
             </Link>
 
-            <Link href="/resources/placeholder" className={styles.resourceContainer}>
-                <h2>Under Construction</h2>
-                <div className={styles.lineSeparator}/>
-                <p className={styles.tickerSymbols}>Ticker: XX, Ticker: XX, Ticker: XX</p>
+            <Link href="/resources" className={styles.resourceContainer}>
+                <h2>Future Content</h2>
             </Link>
         </div>
     )

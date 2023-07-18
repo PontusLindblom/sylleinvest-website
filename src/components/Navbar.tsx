@@ -13,7 +13,7 @@ const Navbar = () => {
             className={`${dropdown ? styles.navbarContainerExtended : styles.navbarContainer} ${styles.limitHeightIfWide}`}>
             <div className={styles.navbarMenu}>
                 <Link href="/" className={styles.navbarLogo}>
-                    <img src="/navbar-logo.webp"
+                    <img src="/navbarLogo.webp"
                          alt="Sylle Invest Logotype"
                          width="150"
                          height="64"
