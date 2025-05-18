@@ -4,6 +4,7 @@ import styles from './navbar.module.css'
 import Link from 'next/link';
 import {FaBars, FaTimes} from "react-icons/fa";
 import {useState} from "react";
+import Image from 'next/image';
 
 const Navbar = () => {
     const [dropdown, setDropdown] = useState(false);
@@ -13,10 +14,12 @@ const Navbar = () => {
             className={`${dropdown ? styles.navbarContainerExtended : styles.navbarContainer} ${styles.limitHeightIfWide}`}>
             <div className={styles.navbarMenu}>
                 <Link href="/" className={styles.navbarLogo}>
-                    <img src="/navbar-logo.webp"
-                         alt="Sylle Invest Logotype"
-                         width="150"
-                         height="64"
+                    <Image
+                        src="/navbar-logo.webp"
+                        alt="Sylle Invest Logotype"
+                        width={150}
+                        height={64}
+                        priority
                     />
                 </Link>
 
