@@ -61,19 +61,19 @@
     display: none;
 }
 
-@media (width < 675px) {
+@media (width < 571px) {
     .hideIfNarrow {
         display: none;
     }
 }
 
-@media (width >= 675px) {
+@media (width >= 571px) {
     .hideIfWide {
         display: none;
     }
 }
 
-@media (width >= 675px) {
+@media (width >= 571px) {
     .limitHeightIfWide {
         min-height: 6.4rem;
     }

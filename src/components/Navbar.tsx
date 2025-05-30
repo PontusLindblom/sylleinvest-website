@@ -31,10 +31,6 @@ const Navbar = () => {
                     About
                 </Link>
 
-                <Link href="/resources" className={`${styles.navbarItem} ${styles.hideIfNarrow}`}>
-                    Resources
-                </Link>
-
                 <Link href="/contact" className={`${styles.navbarItem} ${styles.hideIfNarrow}`}>
                     Contact
                 </Link>
@@ -55,10 +51,6 @@ const Navbar = () => {
                 
                 <Link href="/about" className={`${styles.navbarItemDropdown}`}>
                     About
-                </Link>
-
-                <Link href="/resources" className={`${styles.navbarItemDropdown}`}>
-                    Resources
                 </Link>
 
                 <Link href="/contact" className={`${styles.navbarItemDropdown}`}>
