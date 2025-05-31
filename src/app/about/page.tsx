@@ -10,13 +10,13 @@ export default function Page() {
                 My Story <TbBook className={styles.icon}/>
             </h2>
             <p>
-                At the core, I’m a Software Engineer with a Master’s degree in Computer Science from Chalmers University
-                of Technology. My daily life consists of creating smart IT solutions, like this website. Another strong
-                passion is as an investor, where I’ve accumulated many years of experience in the North American market.
+                I’m a Software Engineer with a Master’s degree in Computer Science from Chalmers University of
+                Technology. While my work mainly involves understanding customer needs, my investing journey primarily
+                focuses on analyzing small public companies in the North American market.
             </p>
             <p>
-                I’m analytical and love simplifying complex subjects so anyone can understand them. When starting my
-                investor journey in the micro-cap space, it quickly became apparent it was hard to find simple and
+                I’m analytical and love simplifying complex subjects so anyone can understand them. When I started
+                investing in the nano-cap space, it quickly became apparent it was hard to find simple and
                 comprehensive due diligence. I wanted to change that, and that’s why I started Sylle Invest.
             </p>
 
